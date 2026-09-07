@@ -1,0 +1,33 @@
+[
+  {
+    "Author": "Arty",
+    "Name": "RollTracker",
+    "InternalName": "RollTracker",
+    "IconUrl": "https://raw.githubusercontent.com/la1998/ArtyDistribution/main/images/RollTracker/icon.png?v=0.1.0.68",
+    "AssemblyVersion": "0.1.0.68",
+    "TestingAssemblyVersion": "0.1.0.68",
+    "TestingDalamudApiLevel": 15,
+    "TestingChangelog": "- Updated the RollTracker installer icon artwork.",
+    "Description": "Reads chat messages, detects /random rolls, tracks Truth or Dare rounds, and provides configurable !truth, !dare, !help, !tod2, and !wifi helpers.\n\nCommands:\n/rt - open or close the window.\n/rt help - show the full command and trigger list locally.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "random",
+      "roll",
+      "tracker",
+      "private"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Tracks /random rolls for private round games.",
+    "AcceptsFeedback": false,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/la1998/ArtyDistribution/main/dist/RollTracker/latest.zip?v=0.1.0.68",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/la1998/ArtyDistribution/main/dist/RollTracker/testing.zip?v=0.1.0.68",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/la1998/ArtyDistribution/main/dist/RollTracker/latest.zip?v=0.1.0.68",
+    "RepoUrl": "https://github.com/la1998/ArtyDistribution",
+    "LastUpdate": "1788759145",
+    "Changelog": "- Updated the RollTracker installer icon artwork."
+  }
+]
