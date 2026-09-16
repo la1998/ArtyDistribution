@@ -5,9 +5,9 @@
     "InternalName": "RollTracker",
     "IconUrl": "https://raw.githubusercontent.com/la1998/ArtyDistribution/main/images/RollTracker/icon.png?v=0.1.0.68",
     "AssemblyVersion": "0.1.0.68",
-    "TestingAssemblyVersion": "0.1.0.69",
+    "TestingAssemblyVersion": "0.1.0.72",
     "TestingDalamudApiLevel": 15,
-    "TestingChangelog": "IMPORTANT!\n\nChat channel dropdowns only control lines that do not already start with an explicit chat or macro command.\n\nIf your existing ToD macros still start lines with /y, /yell, /s, /say, /p, or /party, those lines will continue to use that written command and will ignore the new chat dropdown/global override for that line.\n\nTo let the new dropdown control a line, remove the chat command from the start of the line.\n\nExample:\nBefore: /y Time for Truth or Dare!\nAfter: Time for Truth or Dare!\n\nMacro commands like /wait 10 still work normally and should stay as macro commands.\n\nChanges\n\n- Added chat channel dropdowns for normal and double Truth or Dare rounds, including macro text, result output, and not-enough-player messages.\n- Added a persistent global chat override in Settings > Global controls.\n- Added a dedicated chat channel dropdown for Special Rules output.\n- Added Special Rules Range Rules with grouped output, do-not-trigger support, exact-rule overlap control, and overlap warnings.\n- Reworked Special Rules into separate Exact Rules and Range Rules subtabs.\n- Improved the Special Rules set manager so it lists Exact and Range sets together and highlights active overlaps.\n- Added help popups and tooltips for Exact Rules, Range Rules, Do not trigger with fields, ToD macro chat behavior, and global chat override behavior.\n- Added draggable vertical resize handles for Exact Rules and Range Rules tables.\n- Fixed Status Effects cleanup after fast logout so stale Honorific forced titles are retried after the next stable login when no linked module should keep a title active.",
+    "TestingChangelog": "Testing version bump so Dalamud detects the latest test build.\n\nDistribution README updated with clearer install information and Discord support link.",
     "Description": "Reads chat messages, detects /random rolls, tracks Truth or Dare rounds, and provides configurable !truth, !dare, !help, !tod2, and !wifi helpers.\n\nCommands:\n/rt - open or close the window.\n/rt help - show the full command and trigger list locally.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -24,10 +24,10 @@
     "Punchline": "Tracks /random rolls for private round games.",
     "AcceptsFeedback": false,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/la1998/ArtyDistribution/main/dist/RollTracker/latest.zip?v=0.1.0.68",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/la1998/ArtyDistribution/main/dist/RollTracker/testing.zip?v=0.1.0.69",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/la1998/ArtyDistribution/main/dist/RollTracker/testing.zip?v=0.1.0.72",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/la1998/ArtyDistribution/main/dist/RollTracker/latest.zip?v=0.1.0.68",
     "RepoUrl": "https://github.com/la1998/ArtyDistribution",
-    "LastUpdate": "1789475159",
+    "LastUpdate": 1789574573,
     "Changelog": "- Updated the RollTracker installer icon artwork."
   }
 ]
